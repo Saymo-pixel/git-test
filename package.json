@@ -1,25 +1,23 @@
 {
-  "name": "git-test",
+  "name": "nucampsite",
   "version": "1.0.0",
-  "description": "git and NPM",
+  "description": "This is a website for the fictional campsites review site Nucamp",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
     "start": "npm run lite",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Saymo-pixel/git-test.git"
-  },
-  "author": "",
+  "author": "Shadrina",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Saymo-pixel/git-test/issues"
-  },
-  "homepage": "https://github.com/Saymo-pixel/git-test#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
 }
