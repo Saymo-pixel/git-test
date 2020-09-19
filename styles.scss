@@ -1,3 +1,4 @@
+$color-teal:#17A2B8;
 $color-primary: #3046C5;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
@@ -7,6 +8,9 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
+
+
+
 
 
 body {
@@ -26,6 +30,8 @@ header {
 header h2 {
     color: $color-pale;
 }
+
+
 
 .site-footer {
     background-image: linear-gradient($color-pale, white);
@@ -68,4 +74,19 @@ header h2 {
     right: 0;
     bottom: 0;
     z-index: 100;
+}
+
+ 
+ #reserveModal{
+     .modal-header{
+       background-color: $color-teal;
+       color: white;
+     }
+ }
+
+ #loginModal{
+    .modal-header{
+      background-color: $color-mid;
+      color: white;
+    }
 }
